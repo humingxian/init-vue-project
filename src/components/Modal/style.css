@@ -1,0 +1,61 @@
+.modalBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  opacity: 0;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+.modalBox .modal {
+  width: 780px;
+  height: 560px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1000;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.modalBox .modal .modal-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 50px;
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e5e5e5;
+}
+.modalBox .modal .modal-title .closeIcon {
+  cursor: pointer;
+}
+.modalBox .modal .modal-body {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.modalBox .modal .modal-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 30px 10px 0;
+  font-size: 16px;
+  text-align: right;
+  box-sizing: border-box;
+}

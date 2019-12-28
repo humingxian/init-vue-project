@@ -1,0 +1,18 @@
+@import '../icon/iconfont.css';
+.btn-primary {
+  background-color: #1879fe;
+  color: #fff;
+  border-color: #fff !important;
+}
+.btn-danger {
+  background-color: #fb343f;
+  color: #fff;
+  border-color: #fff !important;
+}
+.btn-default {
+  background-color: #fff;
+  color: #000;
+}
+.pt-6 {
+  padding: 6px 0;
+}
