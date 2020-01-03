@@ -66,7 +66,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         ignore: ['.*']
       }
     ]),
-    // new BundleAnalyzerPlugin() // webpack可视化插件Webpack Bundle Analyzer 查看工程js文件大小
+    new BundleAnalyzerPlugin() // webpack可视化插件Webpack Bundle Analyzer 查看工程js文件大小
   ]
 })
 

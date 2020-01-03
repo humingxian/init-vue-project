@@ -10,6 +10,9 @@ import store from './store'
 // import lang from 'element-ui/lib/locale/lang/en'
 // import locale from 'element-ui/lib/locale'
 
+// 兼容ie的 babel 垫片
+import 'babel-polyfill'
+
 // 导入 mock 接口
 import 'mock/test/index'
 
