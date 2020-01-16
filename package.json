@@ -84,5 +84,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/humingxian/init-vue-project.git",
+  "license": "MIT"
 }
