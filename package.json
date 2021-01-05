@@ -12,7 +12,7 @@
     "test": "jest --config=jest.config.js"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.13.0",
     "flex.css": "^1.1.7",
     "less": "^3.10.3",
